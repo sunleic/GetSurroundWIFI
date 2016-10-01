@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		715F8DE51D9F9F3D008F4701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F8DE41D9F9F3D008F4701 /* main.m */; };
+		715F8DE81D9F9F3D008F4701 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F8DE71D9F9F3D008F4701 /* AppDelegate.m */; };
+		715F8DEB1D9F9F3D008F4701 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F8DEA1D9F9F3D008F4701 /* ViewController.m */; };
+		715F8DEE1D9F9F3D008F4701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715F8DEC1D9F9F3D008F4701 /* Main.storyboard */; };
+		715F8DF01D9F9F3D008F4701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715F8DEF1D9F9F3D008F4701 /* Assets.xcassets */; };
+		715F8DF31D9F9F3D008F4701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715F8DF11D9F9F3D008F4701 /* LaunchScreen.storyboard */; };
+		715F8DFE1D9F9F3D008F4701 /* GetSurroundWIFITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F8DFD1D9F9F3D008F4701 /* GetSurroundWIFITests.m */; };
+		715F8E091D9F9F3D008F4701 /* GetSurroundWIFIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715F8E081D9F9F3D008F4701 /* GetSurroundWIFIUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		715F8DFA1D9F9F3D008F4701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715F8DD81D9F9F3D008F4701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 715F8DDF1D9F9F3D008F4701;
+			remoteInfo = GetSurroundWIFI;
+		};
+		715F8E051D9F9F3D008F4701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715F8DD81D9F9F3D008F4701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 715F8DDF1D9F9F3D008F4701;
+			remoteInfo = GetSurroundWIFI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		715F8DE01D9F9F3D008F4701 /* GetSurroundWIFI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetSurroundWIFI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		715F8DE41D9F9F3D008F4701 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		715F8DE61D9F9F3D008F4701 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		715F8DE71D9F9F3D008F4701 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		715F8DE91D9F9F3D008F4701 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		715F8DEA1D9F9F3D008F4701 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		715F8DED1D9F9F3D008F4701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		715F8DEF1D9F9F3D008F4701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		715F8DF21D9F9F3D008F4701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		715F8DF41D9F9F3D008F4701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715F8DF91D9F9F3D008F4701 /* GetSurroundWIFITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetSurroundWIFITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		715F8DFD1D9F9F3D008F4701 /* GetSurroundWIFITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetSurroundWIFITests.m; sourceTree = "<group>"; };
+		715F8DFF1D9F9F3D008F4701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715F8E041D9F9F3D008F4701 /* GetSurroundWIFIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetSurroundWIFIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		715F8E081D9F9F3D008F4701 /* GetSurroundWIFIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetSurroundWIFIUITests.m; sourceTree = "<group>"; };
+		715F8E0A1D9F9F3D008F4701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		715F8DDD1D9F9F3D008F4701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715F8DF61D9F9F3D008F4701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715F8E011D9F9F3D008F4701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		715F8DD71D9F9F3D008F4701 = {
+			isa = PBXGroup;
+			children = (
+				715F8DE21D9F9F3D008F4701 /* GetSurroundWIFI */,
+				715F8DFC1D9F9F3D008F4701 /* GetSurroundWIFITests */,
+				715F8E071D9F9F3D008F4701 /* GetSurroundWIFIUITests */,
+				715F8DE11D9F9F3D008F4701 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		715F8DE11D9F9F3D008F4701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				715F8DE01D9F9F3D008F4701 /* GetSurroundWIFI.app */,
+				715F8DF91D9F9F3D008F4701 /* GetSurroundWIFITests.xctest */,
+				715F8E041D9F9F3D008F4701 /* GetSurroundWIFIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		715F8DE21D9F9F3D008F4701 /* GetSurroundWIFI */ = {
+			isa = PBXGroup;
+			children = (
+				715F8DE61D9F9F3D008F4701 /* AppDelegate.h */,
+				715F8DE71D9F9F3D008F4701 /* AppDelegate.m */,
+				715F8DE91D9F9F3D008F4701 /* ViewController.h */,
+				715F8DEA1D9F9F3D008F4701 /* ViewController.m */,
+				715F8DEC1D9F9F3D008F4701 /* Main.storyboard */,
+				715F8DEF1D9F9F3D008F4701 /* Assets.xcassets */,
+				715F8DF11D9F9F3D008F4701 /* LaunchScreen.storyboard */,
+				715F8DF41D9F9F3D008F4701 /* Info.plist */,
+				715F8DE31D9F9F3D008F4701 /* Supporting Files */,
+			);
+			path = GetSurroundWIFI;
+			sourceTree = "<group>";
+		};
+		715F8DE31D9F9F3D008F4701 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				715F8DE41D9F9F3D008F4701 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		715F8DFC1D9F9F3D008F4701 /* GetSurroundWIFITests */ = {
+			isa = PBXGroup;
+			children = (
+				715F8DFD1D9F9F3D008F4701 /* GetSurroundWIFITests.m */,
+				715F8DFF1D9F9F3D008F4701 /* Info.plist */,
+			);
+			path = GetSurroundWIFITests;
+			sourceTree = "<group>";
+		};
+		715F8E071D9F9F3D008F4701 /* GetSurroundWIFIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				715F8E081D9F9F3D008F4701 /* GetSurroundWIFIUITests.m */,
+				715F8E0A1D9F9F3D008F4701 /* Info.plist */,
+			);
+			path = GetSurroundWIFIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		715F8DDF1D9F9F3D008F4701 /* GetSurroundWIFI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715F8E0D1D9F9F3D008F4701 /* Build configuration list for PBXNativeTarget "GetSurroundWIFI" */;
+			buildPhases = (
+				715F8DDC1D9F9F3D008F4701 /* Sources */,
+				715F8DDD1D9F9F3D008F4701 /* Frameworks */,
+				715F8DDE1D9F9F3D008F4701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetSurroundWIFI;
+			productName = GetSurroundWIFI;
+			productReference = 715F8DE01D9F9F3D008F4701 /* GetSurroundWIFI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		715F8DF81D9F9F3D008F4701 /* GetSurroundWIFITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715F8E101D9F9F3D008F4701 /* Build configuration list for PBXNativeTarget "GetSurroundWIFITests" */;
+			buildPhases = (
+				715F8DF51D9F9F3D008F4701 /* Sources */,
+				715F8DF61D9F9F3D008F4701 /* Frameworks */,
+				715F8DF71D9F9F3D008F4701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715F8DFB1D9F9F3D008F4701 /* PBXTargetDependency */,
+			);
+			name = GetSurroundWIFITests;
+			productName = GetSurroundWIFITests;
+			productReference = 715F8DF91D9F9F3D008F4701 /* GetSurroundWIFITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		715F8E031D9F9F3D008F4701 /* GetSurroundWIFIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715F8E131D9F9F3D008F4701 /* Build configuration list for PBXNativeTarget "GetSurroundWIFIUITests" */;
+			buildPhases = (
+				715F8E001D9F9F3D008F4701 /* Sources */,
+				715F8E011D9F9F3D008F4701 /* Frameworks */,
+				715F8E021D9F9F3D008F4701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715F8E061D9F9F3D008F4701 /* PBXTargetDependency */,
+			);
+			name = GetSurroundWIFIUITests;
+			productName = GetSurroundWIFIUITests;
+			productReference = 715F8E041D9F9F3D008F4701 /* GetSurroundWIFIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		715F8DD81D9F9F3D008F4701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "孙磊";
+				TargetAttributes = {
+					715F8DDF1D9F9F3D008F4701 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 329ZYF9D22;
+					};
+					715F8DF81D9F9F3D008F4701 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 329ZYF9D22;
+						TestTargetID = 715F8DDF1D9F9F3D008F4701;
+					};
+					715F8E031D9F9F3D008F4701 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 329ZYF9D22;
+						TestTargetID = 715F8DDF1D9F9F3D008F4701;
+					};
+				};
+			};
+			buildConfigurationList = 715F8DDB1D9F9F3D008F4701 /* Build configuration list for PBXProject "GetSurroundWIFI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 715F8DD71D9F9F3D008F4701;
+			productRefGroup = 715F8DE11D9F9F3D008F4701 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				715F8DDF1D9F9F3D008F4701 /* GetSurroundWIFI */,
+				715F8DF81D9F9F3D008F4701 /* GetSurroundWIFITests */,
+				715F8E031D9F9F3D008F4701 /* GetSurroundWIFIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		715F8DDE1D9F9F3D008F4701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715F8DF31D9F9F3D008F4701 /* LaunchScreen.storyboard in Resources */,
+				715F8DF01D9F9F3D008F4701 /* Assets.xcassets in Resources */,
+				715F8DEE1D9F9F3D008F4701 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715F8DF71D9F9F3D008F4701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715F8E021D9F9F3D008F4701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		715F8DDC1D9F9F3D008F4701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715F8DEB1D9F9F3D008F4701 /* ViewController.m in Sources */,
+				715F8DE81D9F9F3D008F4701 /* AppDelegate.m in Sources */,
+				715F8DE51D9F9F3D008F4701 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715F8DF51D9F9F3D008F4701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715F8DFE1D9F9F3D008F4701 /* GetSurroundWIFITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715F8E001D9F9F3D008F4701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715F8E091D9F9F3D008F4701 /* GetSurroundWIFIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		715F8DFB1D9F9F3D008F4701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 715F8DDF1D9F9F3D008F4701 /* GetSurroundWIFI */;
+			targetProxy = 715F8DFA1D9F9F3D008F4701 /* PBXContainerItemProxy */;
+		};
+		715F8E061D9F9F3D008F4701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 715F8DDF1D9F9F3D008F4701 /* GetSurroundWIFI */;
+			targetProxy = 715F8E051D9F9F3D008F4701 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		715F8DEC1D9F9F3D008F4701 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715F8DED1D9F9F3D008F4701 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		715F8DF11D9F9F3D008F4701 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715F8DF21D9F9F3D008F4701 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		715F8E0B1D9F9F3D008F4701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		715F8E0C1D9F9F3D008F4701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		715F8E0E1D9F9F3D008F4701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetSurroundWIFI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlei.GetSurroundWIFI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		715F8E0F1D9F9F3D008F4701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetSurroundWIFI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlei.GetSurroundWIFI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		715F8E111D9F9F3D008F4701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetSurroundWIFITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlei.GetSurroundWIFITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetSurroundWIFI.app/GetSurroundWIFI";
+			};
+			name = Debug;
+		};
+		715F8E121D9F9F3D008F4701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetSurroundWIFITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlei.GetSurroundWIFITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetSurroundWIFI.app/GetSurroundWIFI";
+			};
+			name = Release;
+		};
+		715F8E141D9F9F3D008F4701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetSurroundWIFIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlei.GetSurroundWIFIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetSurroundWIFI;
+			};
+			name = Debug;
+		};
+		715F8E151D9F9F3D008F4701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetSurroundWIFIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlei.GetSurroundWIFIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetSurroundWIFI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		715F8DDB1D9F9F3D008F4701 /* Build configuration list for PBXProject "GetSurroundWIFI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715F8E0B1D9F9F3D008F4701 /* Debug */,
+				715F8E0C1D9F9F3D008F4701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715F8E0D1D9F9F3D008F4701 /* Build configuration list for PBXNativeTarget "GetSurroundWIFI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715F8E0E1D9F9F3D008F4701 /* Debug */,
+				715F8E0F1D9F9F3D008F4701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		715F8E101D9F9F3D008F4701 /* Build configuration list for PBXNativeTarget "GetSurroundWIFITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715F8E111D9F9F3D008F4701 /* Debug */,
+				715F8E121D9F9F3D008F4701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		715F8E131D9F9F3D008F4701 /* Build configuration list for PBXNativeTarget "GetSurroundWIFIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715F8E141D9F9F3D008F4701 /* Debug */,
+				715F8E151D9F9F3D008F4701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 715F8DD81D9F9F3D008F4701 /* Project object */;
+}
