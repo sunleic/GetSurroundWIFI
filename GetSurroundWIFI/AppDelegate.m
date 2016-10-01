@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <SystemConfiguration/CaptiveNetwork.h>
+#import <NetworkExtension/NetworkExtension.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,53 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //获取周边WiFi信息
+    
+    /**
+     *  法一：：
+     *  此方法只能获取到当前连接的WiFi的信息
+     *
+     */
+    NSArray *names = (__bridge NSArray*)CNCopySupportedInterfaces();
+    
+    NSDictionary *info = nil;
+    NSLog(@"++++%@",names);
+    for (NSString *name in names) {
+        info = (__bridge NSDictionary*)CNCopyCurrentNetworkInfo((__bridge CFStringRef)name);
+        
+        if (info && [info count]) {
+            break;
+        }
+    }
+    //一个路由可以有多个ssid，不能用ssid唯一标识一个路由
+    NSString *ssid = [[info objectForKey:(__bridge NSString*)kCNNetworkInfoKeySSID] lowercaseString];
+    //标示LAN状态下的硬件地址，可以唯一标识一个路由
+    NSString *bssid = [[info objectForKey:(__bridge NSString*)kCNNetworkInfoKeyBSSID] lowercaseString];
+    
+    NSLog(@"ssid：%@-----bssid:%@",ssid,bssid);
+    
+    
+    /**
+     *  法二：：：
+     *  此法可以获取WiFi列表，但是使用比较麻烦，需要给苹果发送邮件获取权限，还有可能要重新配置证书
+     *  相关连接 http://blog.csdn.net/huangmindong/article/details/51579729
+     *          http://www.jianshu.com/p/15e90bf11c51
+     */
+    NSArray * networkInterfaces = [NEHotspotHelper supportedNetworkInterfaces];
+    NSLog(@"Networks %@",networkInterfaces);
+    //获取wifi列表
+    for(NEHotspotNetwork *hotspotNetwork in networkInterfaces) {
+        NSString *ssid = hotspotNetwork.SSID;
+        NSString *bssid = hotspotNetwork.BSSID;
+        //        BOOL secure = hotspotNetwork.secure;
+        //        BOOL autoJoined = hotspotNetwork.autoJoined;
+        //        double signalStrength = hotspotNetwork.signalStrength;
+        
+        NSLog(@"-ssid:%@----bssid:%@",ssid,bssid);
+    }
+
+    
     return YES;
 }
 
